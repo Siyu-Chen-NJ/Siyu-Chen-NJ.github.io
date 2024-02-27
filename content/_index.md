@@ -124,6 +124,7 @@ sections:
       columns: '2'
       view: card
   - block: collection
+    id: publications
     content:
       title: Recent Publications
       text: |-
@@ -148,6 +149,7 @@ sections:
   #     columns: '2'
   #     view: compact
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -183,6 +185,7 @@ sections:
     design:
       columns: '2'
   - block: accomplishments
+    id: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
@@ -225,6 +228,7 @@ sections:
     design:
       columns: '2'
   - block: tag_cloud
+    id: tag_cloud
     content:
       title: Research Interests
     design:
@@ -243,9 +247,9 @@ sections:
       address:
         street: 85, Hoegi-ro, Dongdaemun-gu
         city: Seoul
-        # region: CA
+        region: South Korea
         postcode: '02455'
-        country: South Korea
+        # country: South Korea
         # country_code: US
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
