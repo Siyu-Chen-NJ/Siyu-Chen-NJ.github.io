@@ -2,8 +2,8 @@
 title: 'DiffusionNAG: Predictor-guided Neural Architecture Generation with Diffusion
   Models'
 authors:
-- Sohyun An
-- Hayeon Lee
+- Sohyun An*
+- Hayeon Lee*
 - Jaehyeong Jo
 - Seanie Lee
 - Sung Ju Hwang
@@ -11,8 +11,8 @@ date: '2024-01-01'
 publishDate: '2024-02-27T13:06:13.819600Z'
 publication_types:
 - manuscript
-publication: '*arXiv*'
-doi: 10.48550/arXiv.2305.16943
+publication: '*ICLR 2024*'
+# doi: 10.48550/arXiv.2305.16943
 abstract: 'Existing NAS methods suffer from either an excessive amount of time for
   repetitive sampling and training of many task-irrelevant architectures. To tackle
   such limitations of existing NAS methods, we propose a paradigm shift from NAS to
@@ -31,8 +31,10 @@ abstract: 'Existing NAS methods suffer from either an excessive amount of time f
   DiffusionNAG outperforms existing BO-based NAS approaches, particularly in the large
   MobileNetV3 search space on the ImageNet 1K dataset.'
 tags:
-- Computer Science - Machine Learning
+- Generative AI
+- AutoML
+- Neural Architecture Search
 links:
-- name: URL
-  url: http://arxiv.org/abs/2305.16943
+- name: PDF
+  url: https://arxiv.org/pdf/2305.16943.pdf
 ---

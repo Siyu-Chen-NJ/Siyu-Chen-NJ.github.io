@@ -1,14 +1,14 @@
 ---
 title: Meta-prediction Model for Distillation-Aware NAS on Unseen Datasets
 authors:
-- Hayeon Lee
-- Sohyun An
+- Hayeon Lee*
+- Sohyun An*
 - Minseon Kim
 - Sung Ju Hwang
 date: '2022-09-01'
 publishDate: '2024-02-27T13:06:13.811826Z'
 publication_types:
-- paper-conference
+- ICLR 2023, Spotlight Presentation (notable-top-25%)
 abstract: Distillation-aware Neural Architecture Search (DaNAS) aims to search for
   an optimal student architecture that obtains the best performance and/or efficiency
   when distilling the knowledge from a given teacher model. Previous DaNAS methods
@@ -29,6 +29,6 @@ abstract: Distillation-aware Neural Architecture Search (DaNAS) aims to search f
   to multiple unseen datasets for DaNAS tasks, largely outperforming existing meta-NAS
   methods and rapid NAS baselines. Code is available at https://github.com/CownowAn/DaSS.
 links:
-- name: URL
-  url: https://openreview.net/forum?id=SEh5SfEQtqB
+- name: PDF
+  url: https://openreview.net/pdf?id=SEh5SfEQtqB
 ---

@@ -2,14 +2,14 @@
 title: Lightweight Neural Architecture Search with Parameter Remapping and Knowledge
   Distillation
 authors:
-- Hayeon Lee
-- Sohyun An
+- Hayeon Lee*
+- Sohyun An*
 - Minseon Kim
 - Sung Ju Hwang
 date: '2022-05-01'
 publishDate: '2024-02-27T13:06:13.794546Z'
 publication_types:
-- paper-conference
+- AutoML 2022 Workshop
 abstract: Designing diverse neural architectures taking into account resource constraints
   or datasets is one of the main challenges in Neural Architecture Search (NAS). However,
   existing sample-based or one-shot NAS approaches require excessive time or computational
@@ -26,6 +26,6 @@ abstract: Designing diverse neural architectures taking into account resource co
   estimation performance on CIFAR-10 from the MobileNetV3 search space. It outperforms
   all relevant baselines in terms of performance estimation with only 20 batches.
 links:
-- name: URL
-  url: https://openreview.net/forum?id=3D2Qz9y001S
+- name: PDF
+  url: https://openreview.net/pdf?id=3D2Qz9y001S
 ---

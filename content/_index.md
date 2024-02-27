@@ -161,27 +161,38 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Research Intern
+          company: Machine Learning & Artificial Intelligence Lab, KAIST
+          company_url: 'https://www.mlai-kaist.com/'
+          company_logo: org-kaistai
+          location: South Korea
+          date_start: 'Apr 2022'
+          date_end: 'Aug 2022'
+          description: Conducted research on AutoML, Neural Architecture Search, and Meta-learning.
+        - title: Full-time Engineer
+          company: Samsung Electronics
+          company_url: 'https://semiconductor.samsung.com/'
+          company_logo: org-samsung
+          location: South Korea
+          date_start: 'Aug 2021'
+          date_end: 'Mar 2022'
+          description: Worked on OSAT/Advanced Packaging.
+        - title: Undergraduate Student Researcher
+          company: Neuromorphic Materials and Devices Lab, Seoul National University (SNU)
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: org-snu
+          location: South Korea
+          date_start: 'Jul 2020'
+          date_end: 'Sep 2020'
+          description: Conducted research on 'The Effect of Resistance Drift of Phase Change Memory on Artificial Neural Networks.
+        - title: Engineer Intern
+          company: SK Hynix
+          company_url: 'https://www.skhynix.com/'
+          company_logo: org-skhynix
+          location: South Korea
+          date_start: 'Jun 2019'
+          date_end: 'Aug 2019'
+          description: Designed DRAM circuit at Tech Core Design Team.
     design:
       columns: '2'
   - block: accomplishments

@@ -1,16 +1,16 @@
 ---
-title: Mixture-of-Experts in Prompt Optimization
+title: "One Prompt is not Enough: Automated Construction of a Mixture-of-Expert Prompts"
 authors:
-- Ruochen Wang
-- Sohyun An
+- Ruochen Wang*
+- Sohyun An*
 - Minhao Cheng
 - Tianyi Zhou
 - Sung Ju Hwang
 - Cho-Jui Hsieh
-date: '2023-10-01'
+date: '2024-02-01'
 publishDate: '2024-02-27T13:06:13.827525Z'
 publication_types:
-- article-journal
+- Under Review
 abstract: 'Large Language Models (LLMs) exhibit strong generalization power in adapting
   to novel tasks when prompted with language instructions and in-context demos. Since
   this ability sensitively depends on the quality of prompts, various methods have
@@ -30,6 +30,6 @@ abstract: 'Large Language Models (LLMs) exhibit strong generalization power in a
   for each expert, yielding a synergistic effect. The resulting method, codenamed
   Mixture-of-Prompts (MoP), outperforms prior art by up to 43% on benchmark NLP tasks.'
 links:
-- name: URL
+- name: PDF
   url: https://openreview.net/forum?id=sDmjlpphdB
 ---
