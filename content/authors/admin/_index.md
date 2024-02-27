@@ -25,7 +25,7 @@ organizations:
     url: https://gsai.kaist.ac.kr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include effective and efficient data-driven search methods.
 
 # Interests to show in About widget
 interests:
@@ -37,9 +37,6 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    # - course: PhD in Computer Science 
-    #   institution: University of California, Los Angeles (UCLA)
-    #   year: Sep 2024 - 
     - course: MS in Artificial Intelligence
       institution: Korea Advanced Institute of Science and Technology (KAIST)
       year: Aug 2022 - Aug 2024
@@ -121,5 +118,11 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+<!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+{style="text-align: justify;"} -->
+
+I am a second-year MS student in Machine Learning & Artificial Intelligence Lab, KAIST AI. I am supervised by Prof. Sung Ju Hwang.
 {style="text-align: justify;"}
+<!-- Before starting my PhD, I was an undergraduate student reading Engineering Science at University of Oxford. I received my second Master degree in MSc Machine Learning, University College London. I graduated top of my class. -->
+
+<!-- I am interested in effective and efficient search-based intelligence. -->
