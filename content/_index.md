@@ -164,7 +164,8 @@ sections:
         - title: Research Intern
           company: Machine Learning & Artificial Intelligence Lab, KAIST
           company_url: 'https://www.mlai-kaist.com/'
-          company_logo: org-kaistai
+          company_logo: org-x
+          # company_logo: org-kaistai
           location: South Korea
           date_start: 'Apr 2022'
           date_end: 'Aug 2022'
@@ -172,7 +173,8 @@ sections:
         - title: Full-time Engineer
           company: Samsung Electronics
           company_url: 'https://semiconductor.samsung.com/'
-          company_logo: org-samsung
+          company_logo: org-x
+          # company_logo: org-samsung
           location: South Korea
           date_start: 'Aug 2021'
           date_end: 'Mar 2022'
@@ -180,7 +182,8 @@ sections:
         - title: Undergraduate Student Researcher
           company: Neuromorphic Materials and Devices Lab, Seoul National University (SNU)
           company_url: ''
-          company_logo: org-snu
+          company_logo: org-x
+          # company_logo: org-snu
           location: South Korea
           date_start: 'Jul 2020'
           date_end: 'Sep 2020'
@@ -188,7 +191,8 @@ sections:
         - title: Engineer Intern
           company: SK Hynix
           company_url: 'https://www.skhynix.com/'
-          company_logo: org-skhynix
+          company_logo: org-x
+          # company_logo: org-skhynix
           location: South Korea
           date_start: 'Jun 2019'
           date_end: 'Aug 2019'
