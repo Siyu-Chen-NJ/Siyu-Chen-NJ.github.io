@@ -27,6 +27,10 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include effective and efficient data-driven search methods.
 
+Recent News:
+  - blah
+
+
 # Interests to show in About widget
 interests:
   - Generative AI
