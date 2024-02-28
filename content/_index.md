@@ -164,7 +164,7 @@ sections:
         - title: Research Intern
           company: Machine Learning & Artificial Intelligence Lab, KAIST
           company_url: 'https://www.mlai-kaist.com/'
-          company_logo: org-kaistai
+          company_logo: org-kaist
           location: South Korea
           date_start: '2021-04-01'
           date_end: '2021-08-22'
@@ -276,7 +276,7 @@ sections:
         - title: SNS TA
           company: KAIST AI
           company_url: 'https://gsai.kaist.ac.kr/'
-          company_logo: org-kaistai
+          company_logo: org-kaist
           location: South Korea
           date_start: '2023-12-01'
           date_end: '2023-09-01'
@@ -284,7 +284,7 @@ sections:
         - title: TA for AI618 Generative Model and Unsupervised Learning
           company: KAIST AI
           company_url: 'https://gsai.kaist.ac.kr/'
-          company_logo: org-kaistai
+          company_logo: org-kaist
           location: South Korea
           date_start: '2023-03-01'
           date_end: '2023-06-01'

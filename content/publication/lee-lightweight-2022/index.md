@@ -9,7 +9,8 @@ authors:
 date: '2022-05-01'
 publishDate: '2024-02-27T13:06:13.794546Z'
 publication_types:
-- AutoML 2022 Workshop
+- manuscript
+publication: '*AutoML 2022 Workshop*'
 abstract: Designing diverse neural architectures taking into account resource constraints
   or datasets is one of the main challenges in Neural Architecture Search (NAS). However,
   existing sample-based or one-shot NAS approaches require excessive time or computational

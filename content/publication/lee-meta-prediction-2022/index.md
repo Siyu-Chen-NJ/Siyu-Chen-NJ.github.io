@@ -8,7 +8,8 @@ authors:
 date: '2022-09-01'
 publishDate: '2024-02-27T13:06:13.811826Z'
 publication_types:
-- ICLR 2023, Spotlight Presentation (notable-top-25%)
+- manuscript
+publication: '*ICLR 2023, Spotlight (notable-top-25%)*'
 abstract: Distillation-aware Neural Architecture Search (DaNAS) aims to search for
   an optimal student architecture that obtains the best performance and/or efficiency
   when distilling the knowledge from a given teacher model. Previous DaNAS methods

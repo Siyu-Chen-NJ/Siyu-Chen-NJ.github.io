@@ -10,7 +10,8 @@ authors:
 date: '2024-02-01'
 publishDate: '2024-02-27T13:06:13.827525Z'
 publication_types:
-- Under Review
+- manuscript
+publication: '*Under Review*'
 abstract: 'Large Language Models (LLMs) exhibit strong generalization power in adapting
   to novel tasks when prompted with language instructions and in-context demos. Since
   this ability sensitively depends on the quality of prompts, various methods have
