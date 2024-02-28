@@ -148,57 +148,57 @@ sections:
   #   design:
   #     columns: '2'
   #     view: compact
-  # - block: experience
-  #   id: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: Research Intern
-  #         company: Machine Learning & Artificial Intelligence Lab, KAIST
-  #         company_url: 'https://www.mlai-kaist.com/'
-  #         company_logo: org-x
-  #         # company_logo: org-kaistai
-  #         location: South Korea
-  #         date_start: 'Apr 2022'
-  #         date_end: 'Aug 2022'
-  #         description: Conducted research on AutoML, Neural Architecture Search, and Meta-learning.
-  #       - title: Full-time Engineer
-  #         company: Samsung Electronics
-  #         company_url: 'https://semiconductor.samsung.com/'
-  #         company_logo: org-x
-  #         # company_logo: org-samsung
-  #         location: South Korea
-  #         date_start: 'Aug 2021'
-  #         date_end: 'Mar 2022'
-  #         description: Worked on OSAT/Advanced Packaging.
-  #       - title: Undergraduate Student Researcher
-  #         company: Neuromorphic Materials and Devices Lab, Seoul National University (SNU)
-  #         company_url: 'https://sites.google.com/view/snu-neuromorphic/home'
-  #         company_logo: org-x
-  #         # company_logo: org-snu
-  #         location: South Korea
-  #         date_start: 'Jul 2020'
-  #         date_end: 'Sep 2020'
-  #         description: Conducted research on 'The Effect of Resistance Drift of Phase Change Memory on Artificial Neural Networks.
-  #       - title: Engineer Intern
-  #         company: SK Hynix
-  #         company_url: 'https://www.skhynix.com/'
-  #         company_logo: org-x
-  #         # company_logo: org-skhynix
-  #         location: South Korea
-  #         date_start: 'Jun 2019'
-  #         date_end: 'Aug 2019'
-  #         description: Designed DRAM circuit at Tech Core Design Team.
-  #   design:
-  #     columns: '2'
+  - block: experience
+    id: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Research Intern
+          company: Machine Learning & Artificial Intelligence Lab, KAIST
+          company_url: 'https://www.mlai-kaist.com/'
+          company_logo: org-x
+          # company_logo: org-kaistai
+          location: South Korea
+          date_start: '2021-04-01'
+          date_end: '2021-08-22'
+          description: Conducted research on AutoML, Neural Architecture Search, and Meta-learning.
+        - title: Full-time Engineer
+          company: Samsung Electronics
+          company_url: 'https://semiconductor.samsung.com/'
+          company_logo: org-x
+          # company_logo: org-samsung
+          location: South Korea
+          date_start: 'Aug 2021'
+          date_end: 'Mar 2022'
+          description: Worked on OSAT/Advanced Packaging.
+        - title: Undergraduate Student Researcher
+          company: Neuromorphic Materials and Devices Lab, Seoul National University (SNU)
+          company_url: 'https://sites.google.com/view/snu-neuromorphic/home'
+          company_logo: org-x
+          # company_logo: org-snu
+          location: South Korea
+          date_start: 'Jul 2020'
+          date_end: 'Sep 2020'
+          description: Conducted research on 'The Effect of Resistance Drift of Phase Change Memory on Artificial Neural Networks.
+        - title: Engineer Intern
+          company: SK Hynix
+          company_url: 'https://www.skhynix.com/'
+          company_logo: org-x
+          # company_logo: org-skhynix
+          location: South Korea
+          date_start: 'Jun 2019'
+          date_end: 'Aug 2019'
+          description: Designed DRAM circuit at Tech Core Design Team.
+    design:
+      columns: '2'
   - block: accomplishments
     id: accomplishments
     content:
