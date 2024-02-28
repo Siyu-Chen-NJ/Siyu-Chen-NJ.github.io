@@ -28,6 +28,10 @@ abstract: Distillation-aware Neural Architecture Search (DaNAS) aims to search f
   results demonstrate that our proposed meta-prediction model successfully generalizes
   to multiple unseen datasets for DaNAS tasks, largely outperforming existing meta-NAS
   methods and rapid NAS baselines. Code is available at https://github.com/CownowAn/DaSS.
+tags:
+- Neural Architecture Search
+- Knowledge Distillation
+- Meta-learning
 links:
 - name: PDF
   url: https://openreview.net/pdf?id=SEh5SfEQtqB

@@ -25,6 +25,10 @@ abstract: Designing diverse neural architectures taking into account resource co
   in real-world. In the experiments, we validate the proposed method for its accuracy
   estimation performance on CIFAR-10 from the MobileNetV3 search space. It outperforms
   all relevant baselines in terms of performance estimation with only 20 batches.
+tags:
+- AutoML
+- Neural Architecture Search
+- Knowledge Distillation
 links:
 - name: PDF
   url: https://openreview.net/pdf?id=3D2Qz9y001S

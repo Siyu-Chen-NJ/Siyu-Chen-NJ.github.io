@@ -32,8 +32,9 @@ abstract: 'Existing NAS methods suffer from either an excessive amount of time f
   MobileNetV3 search space on the ImageNet 1K dataset.'
 tags:
 - Generative AI
-- AutoML
 - Neural Architecture Search
+- Bayesian Optimization
+- Meta-learning
 links:
 - name: PDF
   url: https://arxiv.org/pdf/2305.16943.pdf

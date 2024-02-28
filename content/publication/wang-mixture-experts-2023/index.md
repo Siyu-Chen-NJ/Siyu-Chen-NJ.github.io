@@ -29,6 +29,10 @@ abstract: 'Large Language Models (LLMs) exhibit strong generalization power in a
   joint search is applied to optimize an instruction complementary to the demo cluster
   for each expert, yielding a synergistic effect. The resulting method, codenamed
   Mixture-of-Prompts (MoP), outperforms prior art by up to 43% on benchmark NLP tasks.'
+tags:
+- Large Language Models
+- Prompt Optimization
+- Multiple-of-Experts
 links:
 - name: PDF
   url: https://openreview.net/forum?id=sDmjlpphdB
