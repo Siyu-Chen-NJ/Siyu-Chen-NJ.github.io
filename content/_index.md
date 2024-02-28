@@ -167,8 +167,10 @@ sections:
           company_logo: org-x
           # company_logo: org-kaistai
           location: South Korea
-          date_start: '2021-04-01'
-          date_end: '2021-08-22'
+          # date_start: '2021-04-01'
+          # date_end: '2021-08-22'
+          date_start: '2021-04'
+          date_end: '2021-08'
           description: Conducted research on AutoML, Neural Architecture Search, and Meta-learning.
         - title: Full-time Engineer
           company: Samsung Electronics
@@ -176,7 +178,7 @@ sections:
           company_logo: org-x
           # company_logo: org-samsung
           location: South Korea
-          date_start: 'Aug 2021'
+          date_start: '2021-08-22'
           date_end: 'Mar 2022'
           description: Worked on OSAT/Advanced Packaging.
         - title: Undergraduate Student Researcher
