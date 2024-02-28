@@ -27,10 +27,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include effective and efficient data-driven search methods.
 
-Recent News:
-  - blah
-
-
 # Interests to show in About widget
 interests:
   - Generative AI
@@ -116,7 +112,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/CV_Sohyun_An.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
