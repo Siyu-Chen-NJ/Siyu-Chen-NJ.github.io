@@ -126,7 +126,7 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Recent Publications
+      title: Publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -278,8 +278,8 @@ sections:
           company_url: 'https://gsai.kaist.ac.kr/'
           company_logo: org-kaist
           location: South Korea
-          date_start: '2023-12-01'
-          date_end: '2023-09-01'
+          date_start: '2023-09-01'
+          date_end: '2023-12-01'
           description: ''
         - title: TA for AI618 Generative Model and Unsupervised Learning
           company: KAIST AI
@@ -306,7 +306,7 @@ sections:
         street: 85, Hoegi-ro, Dongdaemun-gu
         city: Seoul
         region: South Korea
-        postcode: '02455'
+        postcode: '(02455)'
         # country: South Korea
         # country_code: US
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
@@ -333,13 +333,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
