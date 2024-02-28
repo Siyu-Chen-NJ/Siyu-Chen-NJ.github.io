@@ -2,7 +2,7 @@
 title: 'DiffusionNAG: Predictor-guided Neural Architecture Generation with Diffusion
   Models'
 authors:
-- <u>Sohyun An*</u>
+- '*Sohyun An\**'
 - Hayeon Lee*
 - Jaehyeong Jo
 - Seanie Lee
