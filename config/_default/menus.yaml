@@ -25,8 +25,8 @@ main:
   - name: Experience
     url: '#experience'
     weight: 40
-  - name: Accomplishments
-    url: '#accomplishments'
+  - name: Honors & Awards
+    url: '#honors_and_awards'
     weight: 50
   - name: Tags
     url: '#tag_cloud'

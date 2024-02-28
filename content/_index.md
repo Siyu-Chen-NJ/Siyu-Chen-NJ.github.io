@@ -200,8 +200,8 @@ sections:
     design:
       columns: '2'
   # - block: accomplishments
-  - block: honors
-    id: honors
+  - block: honors_and_awards
+    id: honors_and_awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       # title: 'Accomplish&shy;ments'
