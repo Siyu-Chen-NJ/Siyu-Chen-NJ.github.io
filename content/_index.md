@@ -192,7 +192,7 @@ sections:
           company: SK Hynix
           company_url: 'https://www.skhynix.com/'
           # company_logo: org-x
-          company_logo: org-skhynix4
+          company_logo: org-skhynix
           location: South Korea
           date_start: '2019-06-01'
           date_end: '2019-08-01'
