@@ -46,24 +46,21 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-# skills:
-#   - name: Technical
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: python
-#         icon_pack: fab
-#       - name: Data Science
-#         description: ''
-#         percent: 100
-#         icon: chart-line
-#         icon_pack: fas
-#       - name: SQL
-#         description: ''
-#         percent: 40
-#         icon: database
-#         icon_pack: fas
+skills:
+  - name: Recent News
+    items:
+      - name: ''
+        description: 'Jan 2024: One paper accepted to ICLR 2024.'
+      # - name: Data Science
+      #   description: ''
+      #   percent: 100
+      #   icon: chart-line
+      #   icon_pack: fas
+      # - name: SQL
+      #   description: ''
+      #   percent: 40
+      #   icon: database
+      #   icon_pack: fas
 #   - name: Hobbies
 #     color: '#eeac02'
 #     color_border: '#f0bf23'
@@ -118,11 +115,6 @@ social:
 highlight_name: true
 ---
 
-<!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"} -->
-
 I am a second-year MS student in Machine Learning & Artificial Intelligence Lab, KAIST AI. I am supervised by Prof. Sung Ju Hwang.
 {style="text-align: justify;"}
 <!-- Before starting my PhD, I was an undergraduate student reading Engineering Science at University of Oxford. I received my second Master degree in MSc Machine Learning, University College London. I graduated top of my class. -->
-
-<!-- I am interested in effective and efficient search-based intelligence. -->
