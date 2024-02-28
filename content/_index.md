@@ -167,10 +167,8 @@ sections:
           company_logo: org-x
           # company_logo: org-kaistai
           location: South Korea
-          # date_start: '2021-04-01'
-          # date_end: '2021-08-22'
-          date_start: '2021-04'
-          date_end: '2021-08'
+          date_start: '2021-04-01'
+          date_end: '2021-08-22'
           description: Conducted research on AutoML, Neural Architecture Search, and Meta-learning.
         - title: Full-time Engineer
           company: Samsung Electronics
