@@ -192,7 +192,7 @@ sections:
           location: South Korea
           date_start: '2019-06-01'
           date_end: '2019-08-01'
-          description: Designed DRAM circuit at Tech Core Design Team.
+          description: Worked on DRAM circuit design at Tech Core Design Team.
     design:
       columns: '2'
   # - block: accomplishments
