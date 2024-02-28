@@ -117,4 +117,3 @@ highlight_name: true
 
 I am a second-year MS student in Machine Learning & Artificial Intelligence Lab, KAIST AI. I am supervised by Prof. Sung Ju Hwang.
 {style="text-align: justify;"}
-<!-- Before starting my PhD, I was an undergraduate student reading Engineering Science at University of Oxford. I received my second Master degree in MSc Machine Learning, University College London. I graduated top of my class. -->
