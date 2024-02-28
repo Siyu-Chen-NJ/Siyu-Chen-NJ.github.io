@@ -46,11 +46,11 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Recent News
-    items:
-      - name: ''
-        description: 'Jan 2024: One paper accepted to ICLR 2024.'
+# skills:
+#   - name: Recent News
+#     items:
+#       - name: ''
+#         description: 'Jan 2024: One paper accepted to ICLR 2024.'
       # - name: Data Science
       #   description: ''
       #   percent: 100
@@ -117,3 +117,6 @@ highlight_name: true
 
 I am a second-year MS student in Machine Learning & Artificial Intelligence Lab, KAIST AI. I am supervised by Prof. Sung Ju Hwang.
 {style="text-align: justify;"}
+
+## Recent News
+- Jan 2024: One paper accepted to ICLR 2024.
