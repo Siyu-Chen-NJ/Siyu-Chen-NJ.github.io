@@ -176,8 +176,8 @@ sections:
           company_logo: org-x
           # company_logo: org-samsung
           location: South Korea
-          date_start: '2021-08-22'
-          date_end: 'Mar 2022'
+          date_start: '2021-08-01'
+          date_end: '2022-03-01'
           description: Worked on OSAT/Advanced Packaging.
         - title: Undergraduate Student Researcher
           company: Neuromorphic Materials and Devices Lab, Seoul National University (SNU)
@@ -185,17 +185,17 @@ sections:
           company_logo: org-x
           # company_logo: org-snu
           location: South Korea
-          date_start: 'Jul 2020'
-          date_end: 'Sep 2020'
+          date_start: '2020-01-01'
+          date_end: '2020-09-01'
           description: Conducted research on 'The Effect of Resistance Drift of Phase Change Memory on Artificial Neural Networks.
         - title: Engineer Intern
           company: SK Hynix
           company_url: 'https://www.skhynix.com/'
           company_logo: org-x
-          # company_logo: org-skhynix
+          # company_logo: org-skhynix4
           location: South Korea
-          date_start: 'Jun 2019'
-          date_end: 'Aug 2019'
+          date_start: '2019-06-01'
+          date_end: '2019-08-01'
           description: Designed DRAM circuit at Tech Core Design Team.
     design:
       columns: '2'
