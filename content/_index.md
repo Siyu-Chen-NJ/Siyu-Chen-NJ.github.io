@@ -218,7 +218,7 @@ sections:
           icon: google
           organization: Google
           organization_url: 'https://edu.google.com/intl/ALL_my/scholarships/google-travel-and-conference-grants/'
-          title: Google Travel Grant for ICLR 2023 from Google
+          title: Google Travel Grant for ICLR 2023
           url: 'https://edu.google.com/intl/ALL_my/scholarships/google-travel-and-conference-grants/'
         - certificate_url: ''
           date_end: ''
@@ -227,7 +227,7 @@ sections:
           icon: automl
           organization: AutoML
           organization_url: 'https://2023.automl.cc/attend/travel_awards/'
-          title: Travel Grant for AutoML 2023 from AutoML Organizers
+          title: Travel Grant for AutoML 2023
           url: 'https://2023.automl.cc/attend/travel_awards/'
     design:
       columns: '2'
