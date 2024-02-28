@@ -119,4 +119,8 @@ I am a second-year MS student in Machine Learning & Artificial Intelligence Lab,
 {style="text-align: justify;"}
 
 ## Recent News
-- Jan 2024: One paper accepted to ICLR 2024.
+- *Jan 2024*: 🎉 One paper accepted to ICLR 2024.
+- *Jul 2023*: ✈️ Travel Grant for AutoML 2023 from AutoML Organizers.
+- *Apr 2023*: ✈️ Google Travel Grant for ICLR 2023 from Google.
+- *Jan 2023*: 🎉 One paper accepted to ICLR 2023 as Notable-top-25% - Spotlight Presentation.
+- *May 2022*: 🎉 One paper accepted to AutoML 2022 Workshop.
