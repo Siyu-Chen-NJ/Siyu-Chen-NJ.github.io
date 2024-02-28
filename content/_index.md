@@ -181,7 +181,7 @@ sections:
           description: Worked on OSAT/Advanced Packaging.
         - title: Undergraduate Student Researcher
           company: Neuromorphic Materials and Devices Lab, Seoul National University (SNU)
-          company_url: ''
+          company_url: 'https://sites.google.com/view/snu-neuromorphic/home'
           company_logo: org-x
           # company_logo: org-snu
           location: South Korea
