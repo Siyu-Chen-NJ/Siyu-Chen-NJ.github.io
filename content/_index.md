@@ -229,6 +229,15 @@ sections:
           organization_url: 'https://2023.automl.cc/attend/travel_awards/'
           title: Travel Grant for AutoML 2023
           url: 'https://2023.automl.cc/attend/travel_awards/'
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2024-03-01'
+          description: ''
+          icon: iclr
+          organization: ICLR
+          organization_url: 'https://iclr.cc/'
+          title: Travel Grant for ICLR 2024
+          url: 'https://iclr.cc/'
     design:
       columns: '2'
   - block: tag_cloud
@@ -237,29 +246,6 @@ sections:
       title: Research Interests
     design:
       columns: '2'
-  # - block: experience
-  #   id: projects
-  #   content:
-  #     title: Projects
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: ''
-  #         company: Google
-  #         company_url: ''
-  #         company_logo: google
-  #         location: ''
-  #         date_start: '2022-04-01'
-  #         date_end: '2023-06-01'
-  #         description: 'AutoML with Large-scale Hyperparameter Meta-Learning'
-  #   design:
-  #     columns: '2'
   - block: accomplishments
     id: projects
     content:
