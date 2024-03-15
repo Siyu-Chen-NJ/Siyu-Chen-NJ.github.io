@@ -31,8 +31,7 @@ bio: My research interests include effective and efficient data-driven search me
 interests:
   - Generative AI
   - Large Language Models
-  - Prompt Optimization
-  - AutoML
+  - AutoML / Meta-learning
 
 # Education to show in About widget
 education:
@@ -120,8 +119,8 @@ I'm a M.S. student at <a href="https://www.mlai-kaist.com/" style="color: #7289d
 {style="text-align: justify;"}
 
 ## Recent News
+- *Mar 2024* : ✈️ Travel Grant for ICLR 2024 from ICLR Organizers.
 - *Jan 2024* : 🎉 One paper accepted to ICLR 2024.
 - *Jul 2023* : ✈️ Travel Grant for AutoML 2023 from AutoML Organizers.
 - *Apr 2023* : ✈️ Google Travel Grant for ICLR 2023 from Google.
 - *Jan 2023* : 🎉 One paper accepted to ICLR 2023 as Notable-top-25% - Spotlight Presentation.
-- *May 2022* : 🎉 One paper accepted to AutoML 2022 Workshop.

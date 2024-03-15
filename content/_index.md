@@ -176,7 +176,7 @@ sections:
           location: South Korea
           date_start: '2021-08-01'
           date_end: '2022-03-01'
-          description: Worked on OSAT/Advanced Packaging.
+          description: Worked on Advanced Packaging of High Bandwidth Memory (HBM).
         - title: Undergraduate Student Researcher
           company: Neuromorphic Materials and Devices Lab, Seoul National University (SNU)
           company_url: 'https://sites.google.com/view/snu-neuromorphic/home'
