@@ -29,7 +29,7 @@ bio: My research interests include effective and efficient data-driven search me
 
 # Interests to show in About widget
 interests:
-  - Geometric Deep Learning
+  # - Geometric Deep Learning
   - Generative Models
   - Large Language Models
   - AutoML / Meta-learning

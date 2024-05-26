@@ -240,12 +240,12 @@ sections:
           url: 'https://iclr.cc/'
     design:
       columns: '2'
-  - block: tag_cloud
-    id: tag_cloud
-    content:
-      title: Research Interests
-    design:
-      columns: '2'
+  # - block: tag_cloud
+  #   id: tag_cloud
+  #   content:
+  #     title: Research Interests
+  #   design:
+  #     columns: '2'
   - block: accomplishments
     id: projects
     content:
