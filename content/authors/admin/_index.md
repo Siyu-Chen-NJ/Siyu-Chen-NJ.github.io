@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Sohyun An
+title: Siyu Chen
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Sohyun
-last_name: An
+first_name: Siyu
+last_name: Chen
 
 # Status emoji
 status:
@@ -17,32 +17,36 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: MS student at KAIST AI
+role: PhD student at UT Austin
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: KAIST AI
-    url: https://gsai.kaist.ac.kr/
+  - name: UT Austin
+    url: https://www.me.utexas.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include effective and efficient data-driven search methods.
+bio: My research interests include Multi-agent Systems, Bayesian Optimization and Human-AI collaboration.
 
 # Interests to show in About widget
 interests:
   # - Geometric Deep Learning
-  - Generative Models
-  - Large Language Models
-  - AutoML / Meta-learning
+  - Multi-agent Systems
 
 # Education to show in About widget
 education:
   courses:
-    - course: MS in Artificial Intelligence
-      institution: Korea Advanced Institute of Science and Technology (KAIST)
-      year: Aug 2022 - Aug 2024
-    - course: BS in Material Science and Engineering (Summa Cum Laude)
-      institution: Seoul National University (SNU)
-      year: Mar 2017 - Aug 2021
+    - course: Ph.D. in Mechanical Engineering
+      institution: The University of Texas at Austin
+      year: Aug 2022 - present
+    - course: MS in Electrical and Computer Engineering
+      institution: Technical University of Munich
+      year: Oct 2019 - Aug 2021
+    - course: M.Eng. in Electrical and Computer Engineering
+      institution: Tongji University
+      year: Aug 2017 - Aug 2019
+    - course: B.S. in Electrical Engineering and its Automation
+      institution: Nanjing Institute of Technology
+      year: Aug 2013 - Jul 2017
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -88,41 +92,36 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:sohyunan@kaist.ac.kr'
-  - icon: x
-    icon_pack: fab
-    link: https://twitter.com/SohyunAn_
+    link: 'mailto:siyu.chen@utexas.edu'
+  # - icon: x
+  #   icon_pack: fab
+  #   link: https://twitter.com/SohyunAn_
     # label: Follow me on Twitter
     # display:
     #   header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=tW1jSXMAAAAJ&hl
+    link: https://scholar.google.com/citations?user=Odjg5fEAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/CownowAn
+    link: https://github.com/Siyu-Chen-NJ
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/sohyunan0423/
+    link: https://www.linkedin.com/in/siyu-chen-052aa027a/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/CV_Sohyun_An.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/CV_Sohyun_An.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
 <!-- I am a second-year MS student in Machine Learning & Artificial Intelligence Lab, KAIST AI. I am supervised by Prof. Sung Ju Hwang. -->
-I'm a M.S. student at <a href="https://www.mlai-kaist.com/" style="color: #7289da; text-decoration:none">**Machine Learning and Artificial Intelligence (MLAI) lab**</a> in KAIST AI.
+I'm a Ph.D. student at <a href="https://sidilab.net/" style="color: #7289da; text-decoration:none">**System Integration & Design Informatics Laboratory (SiDi Lab)**</a> in UT Austin. Prior to joining SiDi Lab, I was working on multi-agent systems consensus tracking control and learning-based optimal control at ITR Lab, the Technical University of Munich in Germany. I am currently working on multi-agent reinforcement learning and its application in team dynamics in design and task planning.
 {style="text-align: justify;"}
 
 ## Recent News
-- *May 2024* : 🎉 One paper accepted to ICML 2024.
-- *Mar 2024* : ✈️ Travel Grant for ICLR 2024 from ICLR Organizers.
-- *Jan 2024* : 🎉 One paper accepted to ICLR 2024.
-- *Jul 2023* : ✈️ Travel Grant for AutoML 2023 from AutoML Organizers.
-- *Apr 2023* : ✈️ Google Travel Grant for ICLR 2023 from Google.
-- *Jan 2023* : 🎉 One paper accepted to ICLR 2023 as Notable-top-25% - Spotlight Presentation.
+- *May 2024* : 🎉 One paper accepted to International Design Engineering Technical Conferences and Computers and Information in Engineering Conference.
