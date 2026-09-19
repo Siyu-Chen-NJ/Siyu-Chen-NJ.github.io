@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    description: 'Siyu Chen is a Ph.D. candidate in Mechanical Engineering at UT Austin, researching Bayesian optimization, multi-agent decision-making, and reliable AI for engineering design.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Siyu Chen. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -71,7 +71,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/Siyu-Chen-NJ/Siyu-Chen-NJ.github.io'
     content_dir: content
     branch: main
   avatar:
@@ -115,3 +115,7 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
+# Publication records use years when exact publication dates are not supplied.
+publications:
+  date_format: "2006"

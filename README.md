@@ -1,49 +1,103 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# Siyu Chen's website
 
-[![Screenshot](./preview.png)](https://hugoblox.com/templates/)
+Personal academic website built with Hugo Extended and the [Hugo Blox Academic theme](https://github.com/HugoBlox/theme-academic-cv).
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Local development
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+Prerequisites: Git, Go, Make, Bash, curl, tar, and either `shasum` or `sha256sum`.
+On macOS, install Apple's command line tools with `xcode-select --install` if needed,
+then install Go with `brew install go`. The other tools come with macOS/the command
+line tools. On Ubuntu or WSL, install `git golang-go make curl ca-certificates`.
+The site has been tested locally with Go 1.26.2.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+```sh
+git clone https://github.com/Siyu-Chen-NJ/Siyu-Chen-NJ.github.io.git
+cd Siyu-Chen-NJ.github.io
+make dev
+```
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+Open <http://localhost:1313>. Hugo rebuilds the site and reloads the browser when
+you save changes. Draft content is included in the preview. Stop the server with
+`Ctrl+C`. If the port is occupied, run `make dev PORT=1314`.
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+`make dev` and `make build` run setup automatically. Setup downloads the exact
+Hugo Extended version from `.hugo-version`, verifies its release checksum, and
+installs it into the ignored `.local/bin/` directory. It also downloads the theme
+modules pinned in `go.mod`; `go.sum` records their checksums. The first run needs
+internet access. Supported platforms are macOS and Linux/WSL on ARM64 or x86-64.
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+Use these commands instead of a globally installed `hugo`: this older theme pins
+Hugo **0.123.3**, and newer releases may require a theme migration. Node.js, npm,
+Ruby, and Python are not needed to preview or build the site.
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+| Command | Purpose |
+| --- | --- |
+| `make setup` | Install the pinned Hugo binary and download theme modules |
+| `make dev` | Start the local preview with live reload |
+| `make build` | Build the production site into `public/`, excluding drafts |
+| `./.local/bin/hugo <command>` | Run other Hugo commands using the pinned version |
 
-## We ask you, humbly, to support this open source movement
+Additional Hugo flags can be passed with `HUGO_ARGS`, for example:
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+```sh
+make build HUGO_ARGS='--baseURL https://siyu-chen-nj.github.io/'
+```
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+## Where to edit
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+| Content | Location |
+| --- | --- |
+| Biography, education, social links | `content/authors/admin/_index.md` |
+| Profile photo | `content/authors/admin/avatar.png` |
+| Homepage sections and their order | `content/_index.md` |
+| Publications | `content/publication/` and `publications.bib` |
+| Research narrative and future agenda | `content/research/index.md` |
+| Downloadable CV | `static/uploads/Siyu_Academic_CV.pdf` |
+| Navigation | `config/_default/menus.yaml` |
+| Appearance and site features | `config/_default/params.yaml` |
+| Site title and production URL | `config/_default/hugo.yaml` |
+| Images and downloadable files | `assets/media/` and `static/uploads/` |
 
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
+Edit the source files, then review the preview and run `make build` before
+committing. `public/`, `resources/`, and `.local/` are generated and ignored.
+When changing Hugo versions, update `.hugo-version` and `netlify.toml` together.
 
-## Demo image credits
+The site content was updated from the supplied CV and research statement. See
+[the content review](docs/content-review.md) for source checks, unresolved
+differences, and maintenance notes. Under-review manuscripts are maintained in
+`content/_index.md`, separately from the published/accepted bibliography.
 
-- [Unsplash](https://unsplash.com)
+## GitHub workflow
 
-## Latest news
+Create a branch for changes, commit them, and open a pull request into `main`.
+The build workflow runs `make build` on pushes and pull requests. Changes merged
+into `main` trigger the GitHub Pages deployment workflow, which uses the same
+Hugo version and overrides `baseURL` with the URL supplied by GitHub Pages.
+In the repository's **Settings → Pages**, the source should be **GitHub Actions**.
 
-<!--START_SECTION:news-->
-* [6 Compelling Reasons I Switched from WordPress to Hugo](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;wordpress&#x2F;)
-* [The 7 best landing page builders in 2024](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;7-best-landing-page-builders&#x2F;)
-* [Start a Blog and Make Money in 2024: Here&#39;s What You Need to Know](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;start-a-blog-and-make-money&#x2F;)
-* [Hugo vs Quarto: Which One is Better for 2024?](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;quarto&#x2F;)
-* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
-<!--END_SECTION:news-->
+The configured `baseURL` is currently `https://siyu.chen`; local preview overrides
+it with localhost, and Pages deployment uses the repository's Pages URL. Update
+the configuration if your intended production domain changes.
+
+To push, your GitHub CLI account must have write access. Check it with:
+
+```sh
+gh auth status
+gh repo view Siyu-Chen-NJ/Siyu-Chen-NJ.github.io --json viewerPermission
+```
+
+If necessary, sign in to the owner account with
+`gh auth login --hostname github.com --git-protocol https --web`, or grant your
+development account collaborator access. Set your desired Git author name/email
+with repository-local `git config user.name` and `git config user.email` before
+committing.
+
+The existing publication importer creates a pull request when `publications.bib`
+changes on `main`. It runs separately from the site build and requires GitHub
+Actions permission to create pull requests.
+
+## Credits
+
+Based on the [Hugo Blox Academic CV theme](https://github.com/HugoBlox/theme-academic-cv).
+See [LICENSE.md](LICENSE.md) for the license. Template demo images are from
+[Unsplash](https://unsplash.com).
